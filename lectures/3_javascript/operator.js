@@ -7,8 +7,8 @@ console.log(3 + 5 + '8'); // 88
 
 //
 
-let x = 10;
-let y = 20;
+// let x = 10;
+// let y = 20;
 // console.log(x + y);
 // console.log(x - y);
 // console.log(x * y);
@@ -22,7 +22,21 @@ let y = 20;
 //   alert('짝수네요');
 // }
 
-let result = x + y;
-console.log('x: ', x);
-console.log('y: ', y);
+// let result = x + y;
+// console.log('x: ', x);
+// console.log('y: ', y);
+// console.log('result: ', result);
+
+// let a = 30;
+// let b = '30';
+// console.log(a == b); // true
+// console.log(a === b); // flase
+
+let x = 10;
+let y = 20;
+x += y; // x = x + y;
+result = 0;
+for (i = 1; i <= 10; i++) {
+  result += i;
+}
 console.log('result: ', result);
